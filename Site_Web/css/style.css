@@ -1,83 +1,130 @@
 /*Page + Menu */
 html {
-	background-color: gray;
+	background-image:url(../images/background.jpg);
+	background-repeat: repeat-x;
 }
 
 nav{
 	width: 50%;
 	margin: auto;
-	font-family: Arial;
+	font-family: 'Play', sans-serif;
 	text-decoration: none;
 
 }
+h1{
+	font-size: 35px;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+}
 
+h2{ 
+	font-size: 25px;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	color: #2F4F4F;
+}
+h3{	
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Play', sans-serif;
 
+}
+p{
+	font-size: 16px;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+    text-justify: inter-word;
+}
 ul{
 	margin-left:0px; 
 	padding-left:0px;
 }
 #menu li {
+	vertical-align: middle;
+	margin-bottom: 30px;
 	display: inline-block;
 	width:19%;
 	margin: 0px;
 	list-style-type: none;
 	text-align: center;
+	font-weight: bold;
 
 }
 
-#menu a:hover {
-	color: white;
-	text-decoration: none;
-}
+
+
 #menu a:link {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 #menu a:visited {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
+#menu a:hover {
+	transition: 0.5s;
+	font-size: 120%;
+	color: black;
+	text-decoration: underline;
+}
+
 /*PAGE 1*/
+
 #img_presentation{
-	position: relative;
 	width: 80%;
-	height: 300px;
+	height: 315px;
 	margin:auto;
-	border: 1px solid black;
 	text-align: center;
+	margin-top:50px;
+	margin-bottom: 50px
 }
 
 #presentation{
-	width: 80%;
+	width: 50%;
 	margin: auto;
 	text-align: center;
-	border: 1px solid black;
 }
 
 #presentation_border{
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 
 #projets{
-	width: 80%;
+	width: 50%;
 	margin: auto;
 	text-align: center;
-	border: 1px solid black;
 }
 
 #projets_border{
-
+	margin-left: 10%;
+	margin-right: 10%;
 }
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: black;
+}
+.line_p1{
+	border-color:gray;
+}
+
+
 
 /*PAGE 2*/
 #chrono_form{
 	float: left;
-	padding-top: 10em;
+	padding-top: 30px;
 	width:49%;
 }
 #chrono_exp{
 	float: right;
-	padding-top: 10em;
+	padding-top: 30px;
 	width:49%;
 }
 
@@ -87,21 +134,63 @@ ul{
 	margin: auto;
 	height: 30px;
 	width : 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-p{text-align: center}
-h2{ padding-bottom:3em;
-	text-align: center}
+.horizontal_p2{
 
+	height: 0.5px;
+	width: 100px;
+	margin-right: auto;
+	margin-left:auto;
+	border-color: black;
+	padding:0px;
+
+
+}
+.font_page_2 h3 {
+	padding-bottom: 50px;
+}
+.subtitle_p2{
+	font-size: 14px;
+}
+.ville_p2{
+	font-size: 14px;
+	color:navy;
+}
+
+.form {
+		opacity:100%;
+}
 
 /*PAGE 3*/
-
-
-.inline{float:left; 
-	margin: 5%;
-	border: 1px solid black;
-	width: 20%;
-	height: 200px;
+.img_icon{
+	height: 80px;
+	width: 80px;
 }
+
+#section_aboutme {
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.subtitle_p3{
+	margin: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 1px;
+}
+.inline{
+	font-size: 12px;
+	text-align: center;
+	display: inline-block; 
+	width: 30%;
+	height: 250px;
+	border: 1px solid silver;
+	margin: 5px;
+}	
+/*PAGE 4 */
+
 
 
 
